@@ -39,7 +39,7 @@ h1 {
     font-style: normal;
     font-size: 250%;
     text-align: center;
-    color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
     margin: 0;
 }
 
@@ -51,7 +51,7 @@ h1 {
     font-weight: 500;
     line-height: 1.6;
     color: rgb(27, 19, 12);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(199, 172, 122);
 }
 
 .top-of-page {
@@ -91,12 +91,17 @@ footer {
     margin: 0;
 }
 
+.emoji {
+    font-size: 80%;
+}
+
+
 h2 {
     font-weight: 400;
     font-style: normal;
     font-size: 150%;
     text-align: center;
-    color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
     margin: 0 0 40px 0;
 }
 
@@ -107,6 +112,7 @@ float: center;
 max-width: 53%;
 margin-left: 25%;
 margin-right: 25%;
+margin-bottom: 10%;
 shape-outside: circle(80%);
 }
 

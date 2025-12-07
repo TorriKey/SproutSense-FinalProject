@@ -1,0 +1,93 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Andika', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+*, 
+*::after, 
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(/img/form-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Andika', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    
+}
+
+.suggestion-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+header, .suggestion-form {
+    margin: 0 auto;
+    padding: 2%;
+    width: 100%;
+    background-color: rgb(199, 172, 122, 85%);
+}
+
+header h1 {
+    font-size: 190%;
+    letter-spacing: 20%;
+    text-transform: uppercase;
+}
+
+header {
+    margin-top: 2%;
+}
+
+footer {
+    background-color: rgba(18, 66, 21, 85%);
+    text-align: center;
+    padding: 1%;
+    margin-top: 2%;
+    font-size: 0.8rem;
+    color: white;
+}
+
+nav {
+    background-color: rgba(18, 66, 21, 85%);
+    width: 100%;
+    display: flex;
+}
+
+nav ul {
+    padding: 2%;
+    margin: 2%;
+    line-height: 200%;
+}
+
+nav li {
+    font-size: 1.2rem;
+    list-style: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+nav a:link, nav a:visited {
+    color: rgb(2, 58, 9);
+    text-decoration: none;
+}
+
+nav a:visited, nav a:hover {
+    color: rgb(2, 197, 2);
+    cursor: pointer;
+}
+
+nav a:hover {
+    text-decoration:dotted underline;
+}
+
+nav a:active, nav a:focus {
+    color: rgb(0, 255, 136);
+    cursor: pointer;
+    text-decoration: underline;
+}

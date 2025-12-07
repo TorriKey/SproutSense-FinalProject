@@ -54,7 +54,7 @@ ul {
     list-style-type: none;
 }
 
-.links-resources a, .online-communities a {
+.links-resources a:link, .online-communities a:link {
     font-weight: 500;
 }
 
@@ -66,16 +66,12 @@ ul {
 .links-resources a:visited, .online-communities a:visited, .links-resources a:hover, .online-communities a:hover {
     color: rgb(113, 243, 113);
     cursor: pointer;
-}
-
-.links-resources:hover, .online-communities a:hover {
-    text-decoration:dotted underline;
+    text-decoration: none;
 }
 
 .links-resources a:active, .online-communities a:active, .links-resources a:focus, .online-communities a:focus {
     color: rgb(0, 255, 136);
     cursor: pointer;
-    text-decoration: underline;
 }
 
 

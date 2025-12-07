@@ -11,6 +11,7 @@ html {
 
 body {
     background-image: url(/img/form-bg.jpg);
+    background-color: rgb(11, 161, 18);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -57,6 +58,8 @@ nav {
     background-color: rgba(18, 66, 21, 85%);
     width: 100%;
     display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 nav ul {

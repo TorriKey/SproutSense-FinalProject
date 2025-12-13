@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     color: rgb(229, 255, 229);
-    background-color: rgb(4, 112, 19);
+    background-color: rgb(6, 141, 24);
     line-height: 1.6;
     font-size: 120%;
 }
@@ -80,19 +80,23 @@ nav {
     width: 100%;
     display: flex;
     font-weight: bold;
+    justify-content: center;
 }
 
 nav ul {
     padding: 2%;
     margin: 2%;
     line-height: 200%;
+    text-align: center;
 }
 
 nav li {
-    font-size: 1.2rem;
+    font-size: 125%;
     list-style: none;
     letter-spacing: 1px;
     text-transform: uppercase;
+    display: inline;
+    margin: 0 25px;
 }
 
 nav a:link, nav a:visited {

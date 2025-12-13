@@ -19,18 +19,19 @@ body {
 h1, h2, h3 {
     text-align: center;
     font-family: 'Andika', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    
 }
 
 .suggestion-form {
     display: flex;
     flex-direction: column;
+    font-size: 130%;
     align-items: center;
+    justify-content: space-around;
 }   
 
 header, .suggestion-form {
     margin: 0 auto;
-    padding: 2%;
+    padding: 1%;
     width: 100%;
     background-color: rgb(199, 172, 122, 85%);
 }
@@ -69,10 +70,12 @@ nav ul {
 }
 
 nav li {
-    font-size: 1.2rem;
+    font-size: 150%;
     list-style: none;
     letter-spacing: 1px;
     text-transform: uppercase;
+    display: inline;
+    margin: 0 25px;
 }
 
 nav a:link, nav a:visited {
